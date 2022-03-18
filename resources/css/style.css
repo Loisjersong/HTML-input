@@ -1,0 +1,37 @@
+#header {
+    text-align: center;
+}
+
+#header h1 span {
+    color: #000080;
+}
+
+
+.box input {
+    position: relative;
+    display: block;
+    margin : 0 auto;
+    border: 1px solid gray;
+}
+
+/* Font for mobile phone */
+@media (min-width: 320px) and (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+.box {
+    text-align: left;
+    border-radius: 30px;
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+    background-clip:padding-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
