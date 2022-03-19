@@ -6,13 +6,80 @@
     color: #000080;
 }
 
+h2 span {
+    color: #000080;
+}
+
 
 .box input {
     position: relative;
     display: block;
     margin : 0 auto;
-    border: 1px solid gray;
+    border: 1px solid gray; 
 }
+
+.text {
+    width: 75%;
+}
+
+.password {
+    width: 75%;
+}
+
+.radio {
+    float: left;
+    display:inline-block;
+    align-items:center
+}
+
+.checkbox {
+    float: left;
+    display:flex;
+    align-items:center
+}
+
+.button {
+    width: 50%;
+    height: 100%;
+}
+
+.color {
+    width: 75%;
+    height: 100%;
+}
+.email {
+    width: 75%;
+    height: 100%;
+}
+
+.file {
+    width: 75%;
+    height: 100%;
+}
+
+.range {
+    width: 75%;
+    height: 100%;
+}
+
+.date {
+    width: 75%;
+    height: 100%;
+}
+
+.number {
+    width: 75%;
+    height: 100%;
+}
+
+.input_type {
+    display:flex;
+    align-items:center
+}
+
+
+
+
 
 /* Font for mobile phone */
 @media (min-width: 320px) and (max-width: 480px) {

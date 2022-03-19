@@ -23,12 +23,12 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="box">
-                        <h2>&ltinput type="text&gt</h2>
+                        <h2>&ltinput type="<span>text</span>"&gt</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="box form-group">
-                        <input type="text" value="abcdefg" class="form-control">
+                    <div class="box">
+                        <input type="text" value="abcdefg" class="text">
                     </div>
                 </div>
             </div>
@@ -38,27 +38,12 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="box">
-                        <h2>&ltinput type="password&gt</h2>
+                        <h2>&ltinput type="<span>password</span>"&gt</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="box">
-                        <input type="password" value="password" class="form-control">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container my-3">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="box">
-                        <h2>&ltinput type="radio&gt</h2>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="box">
-                        <input type="radio" class="form-control">
+                        <input type="password" value="password" class="password">
                     </div>
                 </div>
             </div>
@@ -68,27 +53,19 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="box">
-                        <h2>&ltinput type="checkbox&gt</h2>
+                        <h2>&ltinput type="<span>radio</span>"&gt</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="box">
-                        <input type="checkbox" class="form-control">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container my-3">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="box">
-                        <h2>&ltinput type="button&gt</h2>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="box">
-                        <input type="button" onclick="alert('Hello World!')" value="button" class="form-control">
+                        <div class="form-check input_type">
+                            <input type="radio" class="form-control radio" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1"></label>
+                            <input type="radio" class="form-control radio" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2"></label>
+                            <input type="radio" class="form-control radio" id="flexRadioDefault3">
+                            <label class="form-check-label" for="flexRadioDefault3"></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -98,27 +75,16 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="box">
-                        <h2>&ltinput type="color&gt</h2>
+                        <h2>&ltinput type="<span>checkbox</span>"&gt</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="box">
-                        <input type="color" class="form-control">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container my-3">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="box">
-                        <h2>&ltinput type="email&gt</h2>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="box">
-                        <input type="email" value="mail@gmail.com" class="form-control">
+                        <div class="form-check input_type">
+                            <input class="form-check-input checkbox form-control" type="checkbox">
+                            <input class="form-check-input checkbox form-control" type="checkbox">
+                            <input class="form-check-input checkbox form-control" type="checkbox">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -128,14 +94,59 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="box">
-                        <h2>&ltinput type="file&gt</h2>
+                        <h2>&ltinput type="<span>button</span>"&gt</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="box">
+                        <input type="button" onclick="alert('Hello World!')" value="button" class="button">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="box">
+                        <h2>&ltinput type="<span>color</span>"&gt</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="box">
+                        <input type="color" class="color">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="box">
+                        <h2>&ltinput type="<span>email</span>"&gt</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="box">
+                        <input type="email" value="xyz@gmail.com" class="email">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="box">
+                        <h2>&ltinput type="<span>file</span>"&gt</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="box">
                         <form>
                             <div class="form-group">
-                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                <input type="file" class="file">
                             </div>
                         </form>
                     </div>
@@ -147,27 +158,12 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="box">
-                        <h2>&ltinput type="hidden&gt</h2>
+                        <h2>&ltinput type="<span>range</span>"&gt</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="box">
-                        <input type="hidden" class="form-control">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container my-3">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="box">
-                        <h2>&ltinput type="image&gt</h2>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="box">
-                        <input type="image" src="resources/images/bootstrap-logo.png" class="form-control">
+                        <input type="range" class="range">
                     </div>
                 </div>
             </div>
@@ -177,18 +173,34 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="box">
-                        <h2>&ltinput type="number&gt</h2>
+                        <h2>&ltinput type="<span>date</span>"&gt</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="box">
-                        <input type="number" value="123456" class="form-control">
+                        <input type="date" class="date">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="box">
+                        <h2>&ltinput type="<span>number</span>"&gt</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="box">
+                        <input type="number" value="123456" class="number">
                     </div>
                 </div>
             </div>
         </div>
 
     </div>
+    
     
 </body>
 </html>
